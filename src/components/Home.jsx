@@ -24,7 +24,7 @@ const Home = ({ setSelectedPage }) => {
               HEY THERE, MY NAME IS
             </p>
             <h1 className="text-4xl sm:text-7xl font-bold text-[#2D9FE7]">
-              JONATHAN BATAC
+              JONATHAN BATACss
             </h1>
             <h5 className="text-4xl sm:text-5xl font-bold text-[#ccd6f6]">
               I'm a Full Stack Developer.
