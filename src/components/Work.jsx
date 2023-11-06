@@ -16,7 +16,7 @@ const Work = () => {
       id="work"
       className="pt-10 pb-24 text-gray-300 bg-[#0a192f]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1000px]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1200px]">
         <motion.div
           className=""
           initial="hidden"
