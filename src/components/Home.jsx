@@ -39,14 +39,16 @@ const Home = ({ setSelectedPage }) => {
             </h2>
             <div>
               <AnchorLink
-                className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-[#2D9FE7] hover:border-[#2D9FE7] transition duration-500"
+                className=""
                 onClick={() => setSelectedPage("work")}
                 href="#work"
               >
-                View Work
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3 mt-1" />
-                </span>
+                <button className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-[#2D9FE7] hover:border-[#2D9FE7]">
+                  View Work
+                  <span className="group-hover:rotate-90 duration-300">
+                    <HiArrowNarrowRight className="ml-3 mt-1" />
+                  </span>
+                </button>
               </AnchorLink>
             </div>
           </motion.div>
