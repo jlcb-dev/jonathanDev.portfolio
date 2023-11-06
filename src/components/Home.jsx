@@ -39,8 +39,7 @@ const Home = ({ setSelectedPage }) => {
             </h2>
             <div>
               <AnchorLink
-                className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+                className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-[#2D9FE7] hover:border-[#2D9FE7] transition duration-500"
                 onClick={() => setSelectedPage("work")}
                 href="#work"
               >
