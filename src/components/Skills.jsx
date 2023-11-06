@@ -37,7 +37,7 @@ const Skills = () => {
           >
             <div className="">
               <p className="text-4xl font-bold inline border-b-4 border-[#2D9FE7]">
-                <FontAwesomeIcon icon={faCode} className="me-2" /> Skills
+                 Skills
               </p>
               <p className="py-4">PROGRAMMING LANGUAGES & TOOLS</p>
             </div>
