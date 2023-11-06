@@ -11,10 +11,10 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div
+    <section
       name="work"
       id="work"
-      className="w-full h-full text-gray-300 bg-[#0a192f]"
+      className="pt-10 pb-24 text-gray-300 bg-[#0a192f]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1000px]">
         <motion.div
@@ -73,7 +73,7 @@ const Work = () => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 
