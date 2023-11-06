@@ -28,7 +28,7 @@ const Work = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div className="pb-8">
+          <div className="">
             <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#2D9FE7]">
               <FontAwesomeIcon icon={faCode} className="me-2" /> Work
             </p>
