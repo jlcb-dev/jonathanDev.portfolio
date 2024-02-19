@@ -6,8 +6,8 @@ export const data=[
         id:1,
         name:"Leads Management",
         image:WorkIm,
-        github:"",
-        live:"",
+        github:"https://github.com/jlcb-dev/dms",
+        live:"https://auto-leads.site/",
     },
     {
         id:2,
