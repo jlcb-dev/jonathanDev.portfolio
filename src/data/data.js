@@ -28,7 +28,7 @@ export const data=[
         name:"My Portfolio",
         image:RealEst,
         github:"https://github.com/jlcb-dev/jonathanDev.portfolio",
-        live:"jonathan-dev-red.vercel.app",
+        live:"https://jonathan-dev-red.vercel.app/",
     },
 
 
