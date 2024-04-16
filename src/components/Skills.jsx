@@ -17,13 +17,13 @@ import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <>
-      <div
+      <section
         name="skills"
         id="skills"
-        className="w-full h-screen bg-[#0a192f] text-gray-300"
+        className="pt-10 pb-24 bg-[#0a192f] text-gray-300"
       >
         {/* Container */}
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[700px]">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1000px]">
           <motion.div
             className=""
             initial="hidden"
@@ -37,7 +37,7 @@ const Skills = () => {
           >
             <div className="">
               <p className="text-4xl font-bold inline border-b-4 border-[#2D9FE7]">
-                <FontAwesomeIcon icon={faCode} className="me-2" /> Skills
+                 Skills
               </p>
               <p className="py-4">PROGRAMMING LANGUAGES & TOOLS</p>
             </div>
@@ -114,7 +114,7 @@ const Skills = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

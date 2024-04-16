@@ -11,12 +11,12 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div
+    <section
       name="work"
       id="work"
-      className="w-full h-full text-gray-300 bg-[#0a192f]"
+      className="pt-10 pb-24 text-gray-300 bg-[#0a192f]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1200px]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[1100px]">
         <motion.div
           className=""
           initial="hidden"
@@ -28,9 +28,9 @@ const Work = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div className="pb-8">
+          <div className="">
             <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#2D9FE7]">
-              <FontAwesomeIcon icon={faCode} className="me-2" /> Work
+              Work
             </p>
             <p className="py-6">Check out some of my recent work</p>
           </div>
@@ -73,7 +73,7 @@ const Work = () => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

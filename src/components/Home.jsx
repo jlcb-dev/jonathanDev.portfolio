@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const Home = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
@@ -38,12 +39,18 @@ const Home = ({ setSelectedPage }) => {
               solutions that bring ideas to life on the digital frontier.
             </h2>
             <div>
-              <button className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-[#2D9FE7] hover:border-[#2D9FE7]">
-                View Work
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3 mt-1" />
-                </span>
-              </button>
+              <AnchorLink
+                className=""
+                onClick={() => setSelectedPage("work")}
+                href="#work"
+              >
+                <button className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-[#2D9FE7] hover:border-[#2D9FE7]">
+                  View Work
+                  <span className="group-hover:rotate-90 duration-300">
+                    <HiArrowNarrowRight className="ml-3 mt-1" />
+                  </span>
+                </button>
+              </AnchorLink>
             </div>
           </motion.div>
         </div>

@@ -34,7 +34,7 @@ const Contact = () => {
       >
         <div>
           <p className="text-4xl font-bold text-gray-300 border-b-4 border-[#2D9FE7]">
-          <FontAwesomeIcon icon={faCode} className="me-2" /> CONTACT ME 
+           CONTACT ME 
           </p>
           
         </div>
